@@ -1,7 +1,7 @@
 """
 Forex Factory News Bot — scheduled side
 -----------------------------------------
-Two jobs, both broadcasting to everyone who has said /start:
+Two jobs, both broadcasting to everyone who has selected /start:
   1. A daily digest at a fixed time.
   2. A reminder ~30 min before EACH individual high-impact release today
      (not tied to session opens — a release gets its own reminder
@@ -37,7 +37,7 @@ FF_CALENDAR_URL = "https://nfs.faireconomy.media/ff_calendar_thisweek.json"
 CHECK_BUTTON_LABEL = "🔍 Check News Now"
 
 WEEKEND_REMINDERS = [
-    "📖 Weekend check-in: review this week's trades. What worked, what didn't?",
+    "📖 Weekend check-in: review this week's trades. What worked, what didn't",
     "🧘 Markets are closed — a good day to step away from the charts and rest.",
     "📚 Study idea: pick one setup from this week and break down why it worked (or didn't).",
     "🚶 Go outside, get some fresh air, come back sharper on Monday.",
